@@ -77,12 +77,6 @@ int main(){
         }
     }
     
-    for (int i = 0; i < R*C; i++) {
-        printf("%d ", grid[i].val);
-        if ((i + 1) % C == 0){
-            printf("\n");
-        }
-    }
     findEVERYTHING(grid, R, C, &island, &largest);
     printf("ISLANDS %d LARGEST %d\n", island, largest);
     free(grid);
