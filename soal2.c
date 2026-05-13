@@ -78,7 +78,7 @@ int main(){
     }
     
     findEVERYTHING(grid, R, C, &island, &largest);
-    printf("ISLANDS %d LARGEST %d\n", island, largest);
+    printf("ISLANDS %d\n LARGEST %d\n", island, largest);
     free(grid);
 }
 
